@@ -84,7 +84,7 @@ def collage(path_to_folder, path_to_save, ind_list=None):
     size = picture_size(len(sq_imgs))
     resized_imgs = resize_all(sq_imgs, size)
     result = combine_all(new_A4(), resized_imgs)
-    result.save(path_to_save+"result.jpg")
+    result.save(os.path.join(path_to_save, "result.jpg"))
 
 
 
