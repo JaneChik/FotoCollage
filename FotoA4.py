@@ -11,15 +11,12 @@ if ind == "n":
 else:
     ind_list = None
 
-if path_to_pictures[-1] != '/':
-    path_to_pictures = path_to_pictures + '/'
 
 save = input("Save result to the same folder? y/n ")
 if save == "n":
     path_to_save = input("Specify the folder where to save result: ")
 else:
     path_to_save = path_to_pictures
-
 
 
 if os.path.exists(path_to_save + 'result.jpg'):
