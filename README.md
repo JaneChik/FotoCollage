@@ -1,8 +1,8 @@
 # FotoCollage
-Place photos on standard A4 image
+#### Place photos on the standard A4 image
 
 ### **Foto.py** script
-Module that need to be in the same folder with **FotoA4.py**.
+Module that need to be placed in the same folder with **FotoA4.py**.
 
 ### **FotoA4.py** script
 Can be run from the console. Follow instructions. 
